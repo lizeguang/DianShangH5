@@ -1,0 +1,22 @@
+.font-size-middle{
+	font-size: 0.4rem;
+}
+.font-size-normal{
+	font-size: 0.1rem;
+}
+.container {
+	.van-nav-bar {
+		/deep/ span{
+			font-size: 0.45rem;
+		}
+		/deep/ .van-icon{
+			font-size: 0.6rem;
+		}
+	}
+	/deep/ .van-nav-bar__left {
+		font-size: 0.45rem;
+	}
+	/deep/ .van-skeleton {
+		padding: 0rem;
+	}
+}
